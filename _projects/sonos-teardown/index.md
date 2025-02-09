@@ -14,19 +14,17 @@ skills:
 main-image: /glovewithwiring.jpg
 ---
 <h3>Buzzcode</h3>
-<img src="/assets/images/buzzcode.jpg" alt="Buzzcode Image" width="600">
+<img src="/_projects/sonos-teardown/buzzcode.jpg" alt="Buzzcode Image" width="600">
 
 <h3>Flexcode</h3>
-<img src="/assets/images/flexcode.jpg" alt="Flexcode Image" width="600">
+<img src="/_projects/sonos-teardown/flexcode.jpg" alt="Flexcode Image" width="600">
 
 <h3>Glove with Wiring</h3>
-<img src="/assets/images/glovewithwiring.jpg" alt="Glove with Wiring Image" width="600">
+<img src="/_projects/sonos-teardown/glovewithwiring.jpg" alt="Glove with Wiring Image" width="600">
 
 <h3>Sensor Wiring</h3>
-<img src="/assets/images/sensorwiring.jpg" alt="Sensor Wiring Image" width="600">
+<img src="/_projects/sonos-teardown/sensorwiring.jpg" alt="Sensor Wiring Image" width="600">
 
-<h3>Sonos</h3>
-<img src="/assets/images/sonos.png" alt="Sonos Teardown Image" width="600">
 
 ---
 ## Project is still ongoing. I will Update this page as we progress and finalize other parameters
