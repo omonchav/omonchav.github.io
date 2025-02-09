@@ -15,10 +15,20 @@ title: Omar Montes Chavez's Portfolio # This is what shows up in the tab of the 
 name: Omar Montes Chavez 
 headline: BS Mechanical Engineering
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Mechanical Engineering student at CSULB. Experience in Thermodynamics,
-  Fluids, Real Gas Behaviors, MATLAB. 
+  Driven Mechanical Engineering student with hands‐on experience 
+  in instrumentation, data acquisition, and motion control systems 
+  for advanced scientific applications. During an internship at 
+  SLAC National Accelerator Laboratory, analyzed cooling system 
+  data for LCLS‐II superconducting cavities, streamlining procedures 
+  with MATLAB scripting and Unix server interfaces. In an 
+  undergraduate research role, developed computational tools 
+  for hydrogen–natural gas blending and examined real‐gas 
+  properties using Van der Waals and CoolProp models. Adept at 
+  collaborating with cross‐functional teams, documenting complex 
+  technical processes, and maintaining a culture of safety in 
+  laboratory environments. 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: assets/images/profile-image/linkedin photo.jpg
+profile_image: /assets/images/profile-image/linkedinphoto.jpg
 
 
 # Link your resume
