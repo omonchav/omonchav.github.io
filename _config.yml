@@ -60,13 +60,15 @@ skills:
     - Siemens NX (1 Semester)
     - AutoCAD (1 Semester)
     - CATIA V5 (1 Semester)
+    - Paraview (1 Semester) 
   - category: Prototyping
     tools:
     - CNC (1 Semester)
     - FDM (2 Years)
-    - Arduino / Raspberry Pi (3 Years)
+    - Arduino (3 Years) 
+    - Raspberry Pi (1 Years)
     - Breadboarding for circuit testing (3 Years) 
-  - category: Design Standards / Best Practices
+  - category: Manufactioring/ Design / Best Practices
     tools:
     - GD&T ASME Y14.5M (2 Year)
     - ISO fits and tolerances (2 Years)
@@ -74,22 +76,31 @@ skills:
     - TeamCenter PLM (2 Years) #Product LifeCycle Management 
     - INFOR Visual ERP (1 Year) #Enterprise Resource PLanning 
     - MySQL (1 Year) 
+    - Ansys HFSS (1 Semester)
+    - Ansys Fluent (1 Semester) 
+    - Aerodynamic Simulation and Optimization (1.5 Years) 
+    - LT Spice (3 Years) 
+    - CoolProp (1 Semester) 
+    - SU2 (1 Semester) 
+    - GMSH (1 Semester) 
   - category: General Office 
     tools:
     - Microsoft Office (10 Years)
     - Outlook (8 Years) 
     - Microsoft Teams (6 Years)  
     - Overleaf/LateX (2 Years)
+  - category: Programming Languages
+    tools:
+    - C++ (1 Year) 
+    - Python (1 Semester) 
+    - JavaScript (1 Semester) 
   - category: Problem Solving 
     tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
+    - Root Cause Analysis 
     - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
-
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-#formspree-key:   https://formspree.io/f/{8-digit key}
+formspree-key:   https://formspree.io/f/xnnjzlvv
 
 
 
