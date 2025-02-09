@@ -7,18 +7,16 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
+title: Omar Montes Chavez's Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
-name: John Doe
-headline: headline message
+name: Omar Montes Chavez 
+headline: BS Mechanical Engineering
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-
+Engineering student with demonstrated skills in data analysis, critical thinking, problem solving, attention to detail, teamwork, and collaboration. Strong technical knowledge of Fluids, Thermodynamics, MATLAB, and Process Engineering. Recognized for the 
+ability to successfully collaborate with peers and co-workers. Proven history of showcasing flexibility and adaptability and excelling and exceeding expectations in fast-paced environments.
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
 
