@@ -17,46 +17,9 @@ main-image: /Turbine.jpeg
 
 ## Project Report
 
-[View the Report](https://drive.google.com/file/d/1ZVIgtfGoYmUe9S8b6UnmubaPcbBdPuGj/view?usp=sharing)
+[View the Report](https://drive.google.com/file/d/1R7OnTA3D_piiHwgoxD8s27wEAMEiiqo6/view?usp=sharing)
 
 
-## Adding code block
-```ruby
-def hello_world
-  puts "Hello, World!"
-end
-```
 
-```python
-def start()
-  print("time to start!")
-```
-
-```javascript
-let x = 1;
-if (x === 1) {
-  let x = 2;
-  console.log(x);
-}
-console.log(x);
-
-```
-
-## Adding external links
-[Wikipedia](https://en.wikipedia.org)
-
-
-## Adding block quote
-> A blockquote would look great if you need to highlight something
-
-
-## Adding table 
-
-| Header 1 | Header 2 |
-|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 |
-| Row 2, Col 1 | Row 2, Col 2 |
-
-make sure to leave aline betwen the table and the header
 
 
