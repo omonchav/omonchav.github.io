@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ultrasonic Sensor Dust Bin
+title: Ultrasonic Sensor Dustbin
 description: I designed and built an automated smart dustbin using an Arduino Uno, an ultrasonic sensor, and a servo motor. Inspired by a similar project, I developed my own version by implementing a standard ultrasonic sensor and servo control code to create a hands-free waste disposal system. The ultrasonic sensor detects when an object, such as a hand, approaches the bin, triggering the servo motor to open the lid automatically. This system enhances hygiene by eliminating the need for physical contact. I worked on wiring the circuit, programming the microcontroller, and calibrating the sensor to ensure smooth and responsive operation. Through this project, I refined my skills in Arduino programming, sensor integration, and mechatronics, demonstrating my ability to design functional and efficient automated systems.
 skills:
   - Onshape
