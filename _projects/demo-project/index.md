@@ -10,7 +10,7 @@ skills:
   - Turbine control system design
   - Material and cooling system optimization
 
-main-image: /turbine.jpeg
+main-image: /Turbine.jpeg
 
 ---
 
