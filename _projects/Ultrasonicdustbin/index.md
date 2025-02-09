@@ -14,47 +14,29 @@ skills:
 
 main-image: /dustbin.jpg
 ---
-
-## Embedding YouTube Video
-The second video has autoplay enabled. Copy and paste the 11-character video ID found in the URL link.  
+<img src="/dustbin.jpg" alt="Description of Image" width="500">
+---
+## Video 
+Initial actuation after assembly and programming of electronic components 
 *Example* : https://youtube.com/shorts/hOHJp6uZn9w?si=0Xwv-KIK4ElZJVMg  
 
 {% include youtube.html id="hOHJp6uZn9w" autoplay="false" %}
 
-You can also set up a custom size by specifying the width (the aspect ratio has been set to 16/9). The default size is **560px × 315px**.  
-
-Regardless of the initial width, all videos are responsive and will fit within smaller screens.
-
-{% include youtube.html id="hOHJp6uZn9w" autoplay="false" width="900px" %}  
 
 <br>
 
-## Adding a Horizontal Line
 ---
 
-## Starting a New Line
-Leave two spaces `"  "` at the end or enter `<br>`
+## Items Used 
+1. CAD Drawings 
+2. Arduino Uno R3
+3. SG 90 Tower Pro Micro Servo Motor
+4. HC-SR04 Ultrasonic Module
+5. Jumper Wires Ribbon Cables
+6. Breadboard
 
-## Adding Bold Text
-This is how you input **bold text**.
 
-## Adding Italic Text
-Italicized text is *the cat's meow*.
-
-## Adding Ordered List
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
-
-## Adding Unordered List
-- First item
-- Second item
-- Third item
-- Fourth item
-
-## Adding a Code Block
-
+## Code Used 
 ```cpp
 #include <Servo.h>
 
