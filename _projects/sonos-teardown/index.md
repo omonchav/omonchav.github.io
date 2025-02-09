@@ -24,6 +24,10 @@ main-image: /glovewithwiring.jpg
 
 <h3>Sensor Wiring</h3>
 <img src="/_projects/sonos-teardown/sensorwiring.jpg" alt="Sensor Wiring Image" width="600">
+---
+## Project Report
+
+[View the Report](https://drive.google.com/file/d/1ZVIgtfGoYmUe9S8b6UnmubaPcbBdPuGj/view?usp=sharing)
 
 
 ---
