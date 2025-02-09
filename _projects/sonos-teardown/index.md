@@ -10,9 +10,15 @@ skills:
   - Breadboard Implementation
   - Soldering and Wiring
   - C++ 
-
+images:
+  - buzzcode.jpg
+  - flexcode.jpg
+  - glovewithwiring.jpg
+  - sensorwiring.jpg
+  - sonos.png
+    
 main-image: /glovewithwiring.jpg
 ---
+## Project is still ongoing. I will Update this page as we progress and finalize other parameters
 
-# This is another demo
 
