@@ -1,49 +1,31 @@
 ---
 layout: post
 title: Ultrasonic Sensor Dust Bin 
-description:  (I have never been employed by / affiliated with SpaceX. This is for demo use only) 
-    Developing the Super Heavy booster catch project involves designing a robust launch tower with "chopstick" arms, advanced control systems for precise booster alignment, and integrating sophisticated software for real-time trajectory adjustments and structural engineering to handle immense forces.
+description:  I designed and built an automated smart dustbin using an Arduino Uno, an ultrasonic sensor, and a servo motor. Inspired by a similar project, I developed my own version by implementing a standard ultrasonic sensor and servo control code to create a hands-free waste disposal system. The ultrasonic sensor detects when an object, such as a hand, approaches the bin, triggering the servo motor to open the lid automatically. This system enhances hygiene by eliminating the need for physical contact. I worked on wiring the circuit, programming the microcontroller, and calibrating the sensor to ensure smooth and responsive operation. Through this project, I refined my skills in Arduino programming, sensor integration, and mechatronics, demonstrating my ability to design functional and efficient automated systems.
 skills: 
   - Onshape
   - CAD
   - Arduino/Arduino IDE 
   - C++
   - Engineering Drawings
-  - Multi-Team Collaboration
+  - Sensor Integration
+  - Mechatronics
+  - Embedded Systems
 
 main-image: /dustbin.jpg
 ---
 
 ---
-# Header 1 
-Used for the title (already generated automatically at the top)
-## Header 2  
-Use this for the header of each section
-### Header 3 
-Use this to have subsection if needed
-
-
-## Embedding images 
-### External images
-{% include image-gallery.html images="https://live.staticflickr.com/65535/52821641477_d397e56bc4_k.jpg, https://live.staticflickr.com/65535/52822650673_f074b20d90_k.jpg" height="400"%}
-<span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
-You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.  
-
-### Embeed images
-{% include image-gallery.html images="project2.jpg" height="400" %} 
-place the images in project folder/images then update the file path.   
-
 
 ## Embedding youtube video
 The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
-*Example* : https://www.youtube.com/watch?v={**MhVw-MHGv4s**}&ab_channel=engineerguy
-{% include youtube-video.html id="MhVw-MHGv4s" autoplay= "false"%}
-{% include youtube-video.html id="XGC31lmdS6s" autoplay = "true" %}
+*Example* : https://youtube.com/shorts/hOHJp6uZn9w?si=0Xwv-KIK4ElZJVMg
+{% include youtube.html id="hOHJp6uZn9w"" autoplay= "false"%}
 
 you can also set up custom size by specifying the width (the aspect ratio has been set to 16/9). The default size is 560 pixels x 315 pixels.  
 
 The width of the video below. Regardless of initial width, all the videos is responsive and will fit within the smaller screen.
-{% include youtube-video.html id="tGCdLEQzde0" autoplay = "false" width= "900px" %}  
+{% include youtube.html id="hOHJp6uZn9w" autoplay = "false" width= "900px" %}  
 
 <br>
 
@@ -72,41 +54,50 @@ Italicized text is the *cat's meow*.
 - Fourth item
 
 ## Adding code block
-```ruby
-def hello_world
-  puts "Hello, World!"
-end
-```
 
-```python
-def start()
-  print("time to start!")
-```
+```cpp
+#include <Servo.h>
 
-```javascript
-let x = 1;
-if (x === 1) {
-  let x = 2;
-  console.log(x);
+// Define sensor and servo pins
+const int trigPin = 9;  // Ultrasonic sensor trigger pin
+const int echoPin = 10; // Ultrasonic sensor echo pin
+const int servoPin = 6; // Servo motor control pin
+
+Servo myServo; // Create servo object
+
+void setup() {
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  myServo.attach(servoPin);
+  myServo.write(0); // Initial servo position
+  Serial.begin(9600);
 }
-console.log(x);
 
-```
+void loop() {
+  long duration;
+  int distance;
 
-## Adding external links
-[Wikipedia](https://en.wikipedia.org)
+  // Send ultrasonic pulse
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
 
+  // Read echo response
+  duration = pulseIn(echoPin, HIGH);
+  distance = duration * 0.034 / 2; // Convert to cm
 
-## Adding block quote
-> A blockquote would look great if you need to highlight something
+  Serial.print("Distance: ");
+  Serial.print(distance);
+  Serial.println(" cm");
 
+  // If object is detected within 15 cm, activate servo
+  if (distance > 0 && distance < 15) {
+    myServo.write(90); // Rotate servo to 90 degrees
+    delay(2000);       // Hold position for 2 seconds
+    myServo.write(0);  // Return servo to initial position
+  }
 
-## Adding table 
-
-| Header 1 | Header 2 |
-|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 |
-| Row 2, Col 1 | Row 2, Col 2 |
-
-make sure to leave aline betwen the table and the header
-
+  delay(500); // Short delay before next measurement
+}
