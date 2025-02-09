@@ -18,7 +18,7 @@ description: >- # dont remove this line. this will ignore all new lines until th
   Mechanical Engineering student at CSULB. Experience in Thermodynamics,
   Fluids, Real Gas Behaviors, MATLAB. 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/linkedin photo.jpg
+profile_image: assets/images/profile-image/linkedin photo.jpg
 
 
 # Link your resume
