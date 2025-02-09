@@ -42,7 +42,7 @@ external-links:    # input only your own url slug. The icons with missing entrie
   
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
-skills (Time):
+skills:
   - category: 3D Modeling
     tools:
     - Solidworks (3 Years)
