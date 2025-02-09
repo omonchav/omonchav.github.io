@@ -1,0 +1,5 @@
+<iframe width="{% if include.width %}{{ include.width }}{% else %}560{% endif %}" 
+        height="{% if include.height %}{{ include.height }}{% else %}315{% endif %}" 
+        src="https://www.youtube.com/embed/{{ include.id }}{% if include.autoplay == 'true' %}?autoplay=1{% endif %}" 
+        frameborder="0" allowfullscreen>
+</iframe>
