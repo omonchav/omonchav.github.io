@@ -11,7 +11,7 @@ skills:
   - Soldering and Wiring
   - C++ 
 
-main-image: /glovewithwiring.png
+main-image: /glovewithwiring.jpg
 ---
 
 # This is another demo
