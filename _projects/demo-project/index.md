@@ -15,6 +15,9 @@ main-image: /Turbine.jpeg
 
 ---
 
+## Project Report
+
+[View the Report](https://drive.google.com/file/d/1ZVIgtfGoYmUe9S8b6UnmubaPcbBdPuGj/view?usp=sharing)
 
 
 ## Adding code block
