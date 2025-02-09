@@ -14,14 +14,12 @@ skills:
 
 main-image: /dustbin.jpg
 ---
-<img src="/dustbin.jpg" alt="Description of Image" width="500">
+<img src="{{ page.main-image }}" alt="Ultrasonic Sensor Dustbin" width="500">
 ---
 ## Video 
 Initial actuation after assembly and programming of electronic components 
-*Example* : https://youtube.com/shorts/hOHJp6uZn9w?si=0Xwv-KIK4ElZJVMg  
 
 {% include youtube.html id="hOHJp6uZn9w" autoplay="false" %}
-
 
 <br>
 
