@@ -1,12 +1,21 @@
-<h2>Courses</h2>
-<ul>
-  {% for course_category in site.relevant_courses %}
-    <li><strong>{{ course_category.category }}</strong>
-      <ul>
-        {% for tool in course_category.tools %}
-          <li>{{ tool }}</li>
-        {% endfor %}
-      </ul>
-    </li>
-  {% endfor %}
-</ul>
+<section id="courses" class="courses-section">
+  <h2>Courses</h2>
+  
+  <ul class="course-categories">
+    {% for course_category in site.courses %}
+      <li>
+        <div class="courses-card">
+          <span class="category-label">{{ course_category.category }}</span>
+          
+          <ul class="courses-list">
+            {% for course in course_category.tools %}
+              <li class="course">
+                {{ course }}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
