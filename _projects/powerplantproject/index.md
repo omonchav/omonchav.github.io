@@ -14,9 +14,8 @@ skills:
 
 main-image: /powerplant.png
 ---
-
+## Report 
 [View the Report](https://drive.google.com/file/d/1sbge84Kj5VTLvma-6pCeo9gdYqKxBvJP/view?usp=sharing)
-
 ---
 ## Code Used 
 ```cpp
