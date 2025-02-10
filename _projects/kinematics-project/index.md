@@ -1,8 +1,7 @@
 ---
 layout: post
-title: 4 Bar Mechanism Kinematics of Dynamics project 
-description: This project involved designing, prototyping, and analyzing a functional four-bar linkage mechanism to simulate an oil pump. Using SolidWorks, a scaled prototype was modeled and 3D-printed using PLA material. Position, velocity, and acceleration analyses were conducted for the mechanism, comparing theoretical calculations with SolidWorks simulations. 
-I was in charge of the electronics, design, motion analysis and printer prepping for this project. An Arduino Uno was programmed to control a servo motor, enabling real-time actuation of the linkage. The analysis aspect involved determining an error calculation into the real model and what a motion study/analysis using solidworks would produce. For ease of prototyping and verifying theoretical calculations, PLA was used in order to model the problem statement mechanism. The project demonstrated hands-on skills in CAD, motion analysis, and embedded system programming while highlighting the influence of friction, weight, and real-world factors on the performance of physical models.
+title: 4 Bar Mechanism Kinematics of Dynamics project
+description: This project involved designing, prototyping, and analyzing a functional four-bar linkage mechanism to simulate an oil pump. Using SolidWorks, a scaled prototype was modeled and 3D-printed using ABS material. Position, velocity, and acceleration analyses were conducted for the mechanism, comparing theoretical calculations with SolidWorks simulations. An Arduino Uno was programmed to control a servo motor, enabling real-time actuation of the linkage. The project demonstrated hands-on skills in CAD, motion analysis, and embedded system programming while highlighting the influence of friction, weight, and real-world factors on the performance of physical models.
 skills:
   - SolidWorks modeling
   - Motion analysis
