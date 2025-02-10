@@ -15,14 +15,16 @@ main-image: /heattrans.jpg
 ---
 ## Images 
 {% include image-gallery.html images="htbc.jpg" height="400" %} 
+---
 {% include image-gallery.html images="htpy.jpg" height="400" %} 
+---
 {% include image-gallery.html images="htcd.jpg" height="400" %} 
+---
 {% include image-gallery.html images="htgu.jpg" height="400" %} 
-
-## Results
+---
 {% include image-gallery.html images="htres.jpg" height="400" %} 
+---
 {% include image-gallery.html images="hthc1.jpg" height="400" %} 
+---
 {% include image-gallery.html images="hthc2.jpg" height="400" %} 
-
-
 ---
