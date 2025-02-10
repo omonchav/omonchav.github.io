@@ -437,6 +437,62 @@ nav .mobile-nav {
 }
 
 
+/* SECTION: COURSES */
+.courses-section {
+    margin-bottom: 100px;
+    display:flex;
+    flex-direction: column;
+}
+
+.courses-section h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.courses-section .course-categories {
+    list-style: none;
+    padding-left: 0;
+}
+
+.courses-section .course-categories .courses-card span {
+    margin-bottom: 10px;
+}
+
+.courses-section .course-categories .courses-card {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.05);    
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+                  0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.courses-section .course-categories .category-label {
+    font-size: 20px;
+    display: grid; 
+    font-weight: 600;
+}
+
+.courses-section .course-categories .courses-list {
+    display: flex; 
+    flex-wrap: wrap;
+    padding-left: 0; 
+    margin-right: 10px;
+    gap: 8px;
+}
+
+.courses-section .course-categories .course {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 8px;
+    background-color: var(--light-background-color);
+    color: var(--link-color);
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+
 /* SECTION 4: CONTACT */
 .contact-section {
     padding: 25px 25px;
