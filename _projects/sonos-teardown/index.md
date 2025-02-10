@@ -25,6 +25,22 @@ main-image: /glovewithwiring.jpg
 <h3>Sensor Wiring</h3>
 <img src="/_projects/sonos-teardown/sensorwiring.jpg" alt="Sensor Wiring Image" width="600">
 ---
+## Video 
+Preliminary programming and interfacing of glove with motor and flex sensor for motion. 
+
+{% include youtube.html id="oJLNpB9cJkU" autoplay="false" %} 
+
+<br>
+
+---
+## Video 2
+Working video of the programmed linear actuator on a 3D printed finger prototype.  
+
+{% include youtube.html id="IOMWWeMI5iI" autoplay="false" %} 
+
+<br>
+--- 
+
 ## Project Report
 
 [View the Report](https://drive.google.com/file/d/1ZVIgtfGoYmUe9S8b6UnmubaPcbBdPuGj/view?usp=sharing)
