@@ -2,6 +2,7 @@
 layout: post
 title: MAE 336 Power Plant Design Project 
 description: This project analyzes the thermodynamic performance of a combined gas-steam power plant with a net power output of 280 MW. Using MATLAB simulations and real gas properties, we evaluated the effects of varying pressure ratios on mass flow rates and thermal efficiency. The study integrates the Brayton and Rankine cycles, accounting for non-ideal efficiencies of turbines, compressors, and heat exchangers. By solving energy balance equations and implementing numerical methods, we determined optimal operating conditions for maximizing efficiency while minimizing energy losses. The project also involved extensive coding for enthalpy interpolation, steam extraction calculations, and system optimization through parametric analysis.
+skills:
   - Thermodynamic modeling
   - MATLAB programming
   - Brayton & Rankine cycle analysis
