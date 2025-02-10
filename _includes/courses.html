@@ -1,0 +1,12 @@
+<h2>Relevant Courses</h2>
+<ul>
+  {% for course_category in site.relevant_courses %}
+    <li><strong>{{ course_category.category }}</strong>
+      <ul>
+        {% for tool in course_category.tools %}
+          <li>{{ tool }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ul>
