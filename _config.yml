@@ -99,6 +99,26 @@ skills:
     - Root Cause Analysis 
     - DFMEA / PFMEA 
 
+Relevant Courses:
+  - category: Undergraduate Level
+    tools:
+    - Fluids Dynamics
+    - Numerical Methods and Analysis 
+    - Thermodynamics
+    - Materials and Material Processing 
+    - CAD/CAM 
+    - Powerplant System Design
+    - Heat Transfer System Design 
+    - Mechanical Control Systems 
+    - Analytical Mechanics I/II 
+    - Kinematics and Mechanics of Dynamic Systems 
+    - Intro to Manufacturing Process
+    - Modeling Analysis of Dynamic Systems 
+    - Engineering Design 
+  - category: Graduate Level 
+    tools: 
+    - Project Management 
+    
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
 formspree-key:   xnnjzlvv
 
