@@ -11,3 +11,10 @@ skills:
   - Teamwork
 main-image: /sae.jpg
 ---
+## Images 
+{% include image-gallery.html images="saetwo.jpg" height="400" %} 
+---
+{% include image-gallery.html images="saetabs.jpg" height="400" %} 
+---
+{% include image-gallery.html images="saemisc.jpg" height="400" %} 
+---
