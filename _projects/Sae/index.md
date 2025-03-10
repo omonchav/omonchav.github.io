@@ -9,3 +9,6 @@ skills:
   - GD&T 
   - Engineering Drawings
   - Teamwork
+
+
+main-image: /sae.jpg
